@@ -133,12 +133,14 @@
     background: var(--topbar-dark);
   }
 
-  /* Adaptación móvil */
-  @media (max-width: 700px) {
-    .topbar {
-      flex-wrap: wrap;
-      justify-content: center;
-    }
+/* Adaptación móvil */
+@media (max-width: 700px) {
+  .topbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* aquí sí se usa gap */
+  }
+   }
 
     .topbar-center {
       order: 3;
@@ -210,7 +212,7 @@
   <!-- BARRA SUPERIOR -->
   <div class="topbar">
     <div class="topbar-left">
-      <img src="img/Logo_Neidis.png" alt="Logo Neidis Marquez" class="topbar-logo">
+      <img src="Logo_Neidis.png" alt="Logo Neidis Marquez" class="topbar-logo">
       <span class="topbar-title"> Neidis Marquez </span>
     </div>
 
@@ -302,6 +304,7 @@
 
 </body>
 </html>
+
 
 
 
